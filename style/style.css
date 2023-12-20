@@ -498,7 +498,6 @@
             background-clip: text;
             -webkit-text-fill-color: transparent;
             text-fill-color: transparent; /* This is proposed and not widely supported yet */
-            display: inline-block;
         }
 
         .pricing-text {
