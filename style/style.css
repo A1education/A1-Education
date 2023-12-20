@@ -493,6 +493,12 @@
             font-size: 3rem;
             text-align: center;
             font-weight: 550;
+            background: linear-gradient(45deg, #4FCEB7, #4853DB);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-fill-color: transparent; /* This is proposed and not widely supported yet */
+            display: inline-block;
         }
 
         .pricing-text {
